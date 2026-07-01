@@ -10,8 +10,8 @@ ExclusiveArch:  x86_64 aarch64
 
 # These are the only archs that JADENS provides for that is supported by Fedora.
 # JADENS has folder structures and postinst scripts for x86 but no files, so we can't add it sadly.
-Source0: https://raw.githubusercontent.com/RdrSeraphim/jadens-printer-driver-rpm/sources/jadens-printer-driver-3.3.5.497-x86_64.tar.gz
-Source1: https://raw.githubusercontent.com/RdrSeraphim/jadens-printer-driver-rpm/sources/jadens-printer-driver-3.3.5.497-aarch64.tar.gz
+Source0: https://raw.githubusercontent.com/RdrSeraphim/jadens-printer-driver/sources/jadens-printer-driver-3.3.5.497-x86_64.tar.gz
+Source1: https://raw.githubusercontent.com/RdrSeraphim/jadens-printer-driver/sources/jadens-printer-driver-3.3.5.497-aarch64.tar.gz
 
 %description
 CUPS support for JADENS thermal printing devices. Converted from Debian package.
