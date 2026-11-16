@@ -19,8 +19,14 @@ sudo dnf install jadens-printer-driver
 ```
 
 ### Arch
-<small>will have on AUR as soon as registrations are available</small>
+Available on the AUR: [https://aur.archlinux.org/packages/jadens-printer-driver](https://aur.archlinux.org/packages/jadens-printer-driver)
 
+#### AUR
+```sh
+yay -s jadens-printer-driver # or equivalent
+```
+
+#### Manual
 ```sh
 git clone https://github.com/RdrSeraphim/jadens-printer-driver
 cd jadens-printer-driver
